@@ -78,4 +78,12 @@ public class WordLibraryTest extends TestCase {
         return Arrays.equals(clearArray, scrambledArray);
     }
 
+		/**
+     * This test will allways return true. Yep it is that usefull...
+     */
+    private boolean allwaystrue() {
+			//some stuff...        
+			return true;
+    }
+
 }
